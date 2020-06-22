@@ -1,0 +1,20 @@
+{
+  "name": "downloader",
+  "version": "0.0.0",
+  "description": "Node based API service to download files from the Internet",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "John Tregoning",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "eslint": "^7.2.0"
+  },
+  "dependencies": {
+    "es-tabify": "^1.0.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
